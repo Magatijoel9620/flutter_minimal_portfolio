@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                'Your Name', // Replace with your name
+                'Magati Joel', // Replace with your name
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Your Description Here', // Replace with your description
+                'Freelance FullStack Developer', // Replace with your description
                 style: TextStyle(
                   fontSize: 16,
                 ),
@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
                   IconButton(
                     icon: const Icon(Icons.code), // GitHub icon
                     onPressed: () async {
-                      final url = Uri.parse('https://github.com/yourusername'); // Replace with your GitHub URL
+                      final url = Uri.parse('https://github.com/Magatijoel9620'); // Replace with your GitHub URL
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       }
@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
                   IconButton(
                     icon: const Icon(Icons.email),
                     onPressed: () async {
-                      final url = Uri.parse('mailto:youremail@example.com'); // Replace with your email
+                      final url = Uri.parse('mailto:magatijoel@gmail.com'); // Replace with your email
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       }
