@@ -25,8 +25,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'My Portfolio',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.system, // Or ThemeMode.light, ThemeMode.dark
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
