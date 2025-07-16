@@ -18,7 +18,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Portfolio (Flutter)',
       description: 'The very website you are likely viewing! Built with Flutter to showcase my skills, projects, and provide contact information. Features responsive design and Material 3 theming.',
-      imageUrl: 'assets/image/portfolio_project_ss.png',
+      imageUrl: 'assets/icons/portfolio.png',
       githubUrl: 'https://github.com/Magatijoel9620/flutter_minimal_portfolio.git',
       liveDemoUrl: null,
       technologies: ['Flutter', 'Dart', 'Material 3', 'Responsive Design'],
@@ -26,7 +26,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'E-commerce Mobile App',
       description: 'A concept mobile application for an online store, featuring product listings, cart functionality, and user authentication. Focused on clean UI/UX.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/007BFF/FFFFFF?Text=E-commerce+App',
+      imageUrl: 'assets/icons/portfolio1.png',
       githubUrl: 'https://github.com/Magatijoel9620/fooddeliveryfirebase.git',
       liveDemoUrl: null,
       technologies: ['Flutter', 'Firebase', 'State Management (Provider/Bloc)'],
@@ -34,7 +34,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Task Management Mobile App',
       description: 'A simple application for managing tasks and to-do lists, built with Flutter and modern UI-UX.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/28A745/FFFFFF?Text=Task+Manager+App',
+      imageUrl: 'assets/icons/portfolio.png',
       githubUrl: 'https://github.com/Magatijoel9620/Simple_flutter_ToDo.git',
       liveDemoUrl: null,
       technologies: ['Flutter', 'Firebase', 'State Management'],
@@ -42,7 +42,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'StayZen Accommodation App (Design)',
       description: 'Modern accommodation booking UI with search, date selection, and immersive design. Built in Flutter with neumorphism/glassmorphism, dark/light mode, and animations.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/FFC107/000000?Text=StayZen+UI',
+      imageUrl: 'assets/icons/portfolio1.png',
       githubUrl: 'https://github.com/Magatijoel9620/stayZen_booking.git',
       liveDemoUrl: null,
       technologies: ['Flutter', 'Material 3', 'Animations', 'Dark Mode', 'UI Design'],
@@ -50,7 +50,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Invoice App (Flutter)',
       description: 'An invoice manager app featuring dark/light mode, invoice entry, and a clean modern interface. Built with Flutter and Material 3.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/6F42C1/FFFFFF?Text=Invoice+App',
+      imageUrl: 'assets/icons/portfolio.png',
       githubUrl: 'https://github.com/Magatijoel9620/invoice_app_flutter.git',
       liveDemoUrl: null,
       technologies: ['Flutter', 'Material 3', 'Stateful Widgets', 'Dark Mode'],
@@ -58,7 +58,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Hempon Business Website (Next.js)',
       description: 'A clean, modern general supplies company website built with Next.js, Tailwind CSS, shadcn/ui, and Framer Motion. Includes Home, About, Services, and Contact pages with dark mode toggle.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/17A2B8/FFFFFF?Text=Hempon+Website',
+      imageUrl: 'assets/icons/portfolio1.png',
       githubUrl: 'https://github.com/Magatijoel9620/hempon-group.git',
       liveDemoUrl: null,
       technologies: ['Next.js', 'Tailwind CSS', 'shadcn/ui', 'Framer Motion', 'Dark Mode'],
@@ -66,7 +66,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Client Portal for Law Firm (Django)',
       description: 'A secure Django-based client portal for a law firm, using PostgreSQL and a modern UI. Includes client document upload, dashboard, and authentication.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/343A40/FFFFFF?Text=Client+Portal',
+      imageUrl: 'assets/icons/portfolio.png',
       githubUrl: 'https://github.com/Magatijoel9620/law_portal.git',
       liveDemoUrl: null,
       technologies: ['Django', 'PostgreSQL', 'Bootstrap/Tailwind', 'Auth'],
@@ -74,7 +74,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     Project(
       name: 'Legal Aid Report Automation (Google Apps Script)',
       description: 'An automation script for Google Sheets and Forms to generate monthly summaries, charts, PDF reports, and dashboard views for legal aid responses.',
-      imageUrl: 'https://via.placeholder.com/600x400.png/20C997/FFFFFF?Text=Legal+Aid+Automation',
+      imageUrl: 'assets/icons/portfolio1.png',
       githubUrl: null,
       liveDemoUrl: null,
       technologies: ['Google Apps Script', 'Google Sheets', 'PDF Generation', 'Automation'],
